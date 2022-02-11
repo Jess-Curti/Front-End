@@ -88,13 +88,13 @@ nav a:hover {
   width: 40vw;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
 }
 
 p {
   text-indent:30px;
-  border-top: 2rem;
+  margin-top: 2rem;
 }
 
 .taxonomia {
@@ -113,6 +113,7 @@ p {
 .conteudo {
   display: flex;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 #contato {
@@ -120,6 +121,41 @@ p {
   justify-content: space-around;
   width: 70vw;
 }
+
+button {
+  width: 20%;
+  background: #4eb9eb;
+  border-radius: 14px;
+  border-color:#4eb9eb;
+  font-size: 18px;
+}
+
+.form form {
+  width: 70%;
+  margin: 0 auto;
+}
+
+label{
+  text-align: left;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 0;
+  color: #000000;
+}
+
+#txtNome, #txtEmail, #txtAssunto {
+  margin-bottom: 1.5rem;
+}
+
+.endereco {
+  justify-content: center;
+}
+
+/* Ajustando responsividade*/
 
 @media (max-width: 768px) {
   .sobreGatos {
@@ -145,6 +181,6 @@ p {
     display: none;
   }
 
-  .form {
+  /* .form {
     width: 100vw;
-  }
+  } */
