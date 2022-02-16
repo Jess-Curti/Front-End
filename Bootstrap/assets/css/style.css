@@ -1,0 +1,19 @@
+.gradient {
+    background: linear-gradient(to left, #9933ff 0%, #660066 100%);
+}
+
+.fotoPerfil:hover{
+	transform: rotateY(180deg);
+}
+
+.page-header {
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+    padding: 1rem;
+}
